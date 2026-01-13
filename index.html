@@ -1,0 +1,202 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>JustFat</title>
+    <link rel="icon" href="IMG/name.jpeg">
+</head>
+<body>
+    <header id="header">
+        <a href="index.html"><div id="logo"><img src="IMG/name.jpeg" height="80px"></div></a>
+        <h1 id="MainTitle">JustFat</h1>
+        <section id="navegacion2">
+            <a href="index.html" class="enlaceNav"><div class="subNav">Inicio</div></a>
+            <a href="HTML/categorias.html"class="enlaceNav"><div class="subNav">Categorias</div></a>
+            <a href="HTML/registro.html"class="enlaceNav"><div class="subNav">Registrarse</div></a>
+            <a href="index.html#Footer"class="enlaceNav"><div class="subNav">Redes Sociales</div></a>
+            <a href="index.html#Footer"class="enlaceNav"><div class="subNav">Contactanos</div></a>
+        </section>
+        <div id="NavButton" onclick="menu()"><img src="IMG/NavButtonWhite.png" height="50px"></div>
+    </header>
+    <section id="navegacion" style="display: none;">
+        <a href="index.html" class="enlaceNav"><div class="subNav">Inicio</div></a>
+        <a href="HTML/categorias.html"class="enlaceNav"><div class="subNav">Categorias</div></a>
+        <a href="HTML/registro.html"class="enlaceNav"><div class="subNav">Registrarse</div></a>
+        <a href="index.html#Footer"class="enlaceNav"><div class="subNav">Redes Sociales</div></a>
+        <a href="index.html#Footer"class="enlaceNav"><div class="subNav">Contactanos</div></a>
+    </section>
+    <section id="NewsContainer">
+        <div id="NewsLetter">
+            <div id="NewsTitle"><h2>Quieres saber mas?</h2></div>
+            <a href="HTML/registro.html"><div id="NewsButton"><h2>Subscribete</h2></div></a>
+        </div>
+    </section>
+    
+    <main class="mainContent">
+        <div class="FeaturedTitle">Menu Destacado de la Semana</div>
+        <section>
+            <div class="DestacadoTitle"><h2 id="CarnivoroTitle">Menu Carnivoro</h2></div>
+            <section id="FeaturedMenu">
+                <article class="FeaturedItem">
+                    <div class="FotoRecomended"><img src="IMG/comida/CarnivoroComida.png" width="100%"></div>
+                    <div class="RecomTitle">Sandwich de costillar de cerdo</div>
+                    <h3>Comida</h3>
+                    <div class="RecomIngredientes">
+                        costillar, pimienta, paprika, chile en hojuelas, pimiento rojo picado,
+                        pimiento verde picado, cebolla picada, dientes de ajo, cerveza,
+                        mayonesa, pepinillos picados, pimentón rojo en conserva
+                    </div>
+                    <div class="RecomAlerg">
+                        <img src="IMG/Alergenos/Gluten.png" height="40px">
+                        <img src="IMG/Alergenos/Lacteos.png" height="40px">
+                    </div>
+                </article>
+                <article class="FeaturedItem">
+                    <div class="FotoRecomended"><img src="IMG/comida/CarnivoroCena.png" width="100%"></div>
+                    <div class="RecomTitle">Medallon de carne</div>
+                    <h3>Cena</h3>
+                    <div class="RecomIngredientes">
+                        medallones de lomo, tocino, mantequilla a temperatura ambiente.
+                        ajos picados, romero, tomillo, sal, pimienta, Harina, Caldo de carne.
+                    </div>
+                    <div class="RecomAlerg">
+                        <img src="IMG/Alergenos/Lacteos.png" height="40px">
+                    </div>
+                </article>
+            </section>
+            <a href="HTML/categorias.html#CarnivoroTitle"><div class="RecomButton">Ver mas</div></a>
+        </section>
+    </main>
+    <main class="mainContent">
+        <section> 
+            <div class="FeaturedTitle">Menus Recomendados</div>
+        </section>
+        <section id="recomended">
+            <section>
+                <div class="RecomMenuTitle"><h2 id="VeganoTitle">Menu Vegano</h2></div>
+                <section class="RecomMenu"> 
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="IMG/comida/EnsaladaTropical.png" width="100%"></div>
+                        <div class="RecomTitle">Ensalada de frutas</div>
+                        <h3>Comida</h3>
+                        <div class="RecomIngredientes">
+                            Espinacas, mezclum, salsa avocadolove ,mango, piña, aguacate ,edamame,pepino, cherry, pipas de calabaza y chip platano
+                        </div>
+                        <div class="RecomAlerg">
+                        </div>
+                    </article>
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="IMG/comida/tofu-curry-rojo.png" width="100%"></div>
+                        <div class="RecomTitle">Curry rojo de verduras y tofu</div>
+                        <h3>Cena</h3>
+                        <div class="RecomIngredientes">
+                            Caldo de verduras apio, cebolla, puerro, tomate, ajo,
+                            nabo, col, tofu, arroz, zanahoria, pimiento rojo, calabacín, 
+                            curry rojo especias, salsa de soja,</div>
+                        <div class="RecomAlerg">
+                            <img src="IMG/Alergenos/Apio.png" height="40px">
+                            <img src="IMG/Alergenos/Soja.png"height="40px">
+                            <img src="IMG/Alergenos/Gluten.png" height="40px">
+                        </div>
+                    </article>
+                </section>
+            <a href="HTML/categorias.html#VeganoTitle"><div class="RecomButton">Ver mas</div></a>
+            </section>
+            <section>
+                <div class="RecomMenuTitle"><h2 id="Real_FoodTitle">Real Food</h2></div>
+                <section class="RecomMenu">
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="IMG/comida/ParatasReal.png" width="100%"></div>
+                        <div class="RecomTitle">Patatas con salsa picante</div>
+                        <h3>Comida</h3>
+                        <div class="RecomIngredientes">
+                            Patata, Agua mineral natural, Cebolla, Aceite de oliva virgen extra,
+                            Harina de avena, Pimenton rojo de la vera, Ajo,
+                            Pimentón dulce, Pimienta negra, Sal
+                        </div>
+                        <div class="RecomAlerg">
+                        </div>
+                    </article>
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="IMG/comida/HumusReal.png" width="100%"></div>
+                        <div class="RecomTitle">Hummus Italiano</div>
+                        <h3>Cena</h3>
+                        <div class="RecomIngredientes">
+                            Garbanzos cocidos, Pimientos rojos asados, 
+                            Tomate seco en aceite de oliva, Zumo de limón, Alcaparras, 
+                            Tahin, Albahaca, Ajo, Comino, Sal
+                        </div>
+                        <div class="RecomAlerg">
+                        </div>
+                    </article>
+                </section>
+                <a href="HTML/categorias.html#Real_FoodTitle"><div class="RecomButton">Ver mas</div></a>
+            </section>
+            <section>
+                <div class="RecomMenuTitle"><h2 id="CarnivoroTitle">Menu Carnivoro</h2></div>
+                <section class="RecomMenu">
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="IMG/comida/CarnivoroComida.png" width="100%"></div>
+                        <div class="RecomTitle">Sandwich de costillar de cerdo</div>
+                        <h3>Comida</h3>
+                        <div class="RecomIngredientes">
+                            costillar, pimienta, paprika, chile en hojuelas, pimiento rojo picado,
+                            pimiento verde picado, rojo en conserva, 
+                            cebolla morada, salsa inglesa pan de campo largo
+                        </div>
+                        <div class="RecomAlerg">
+                            <img src="IMG/Alergenos/Gluten.png" height="40px">
+                            <img src="IMG/Alergenos/Lacteos.png" height="40px">
+                        </div>
+                    </article>
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="IMG/comida/CarnivoroCena.png" width="100%"></div>
+                        <div class="RecomTitle">Medallon de carne</div>
+                        <h3>Cena</h3>
+                        <div class="RecomIngredientes">
+                            medallones de lomo, tocino, mantequilla a temperatura ambiente.
+                            ajos picados, romero, tomillo, sal, pimienta, Harina, Caldo de carne.
+                        </div>
+                        <div class="RecomAlerg">
+                            <img src="IMG/Alergenos/Lacteos.png" height="40px">
+                        </div>
+                    </article>
+                </section>
+                <a href="HTML/categorias.html#CarnivoroTitle"><div class="RecomButton">Ver mas</div></a>
+            </section>
+        </section>
+    </main>
+    <footer id="Footer">
+        <div class="FooterInfo">
+            <h3>Informacion de contacto</h3>
+            <p>JustFat@gmail.com</p>
+            <p>+34 655 71 75 90</p>
+        </div>
+        <div class="FooterInfo">
+            <h3>Redes Sociales</h3> 
+            <p>Tick Tock: @JustFat01_ofical</p>
+            <p>Instagram: @JustFat_real</p>
+            <p>X: @JustFat1</p>
+            <p>Facebook: @JustFat</p>
+        </div>
+        <div class="FooterInfo">
+            <h3>Copyright</h3>
+            <p>&copy; 2025 JustFatTM INC &CO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script>
+        function menu(){
+            let navegacion = document.getElementById("navegacion");
+            if(navegacion.style.display == "none"){
+                navegacion.style.display = "block"
+            } else{
+                navegacion.style.display = "none"
+            }
+        }
+        //Muchas gracias Sergi por el codigo de javaScript
+    </script>
+</body>
+
+</html>
