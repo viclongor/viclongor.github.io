@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>JustFat</title>
+    <link rel="icon" href="../IMG/name.jpeg">
+</head>
+<body>
+    <header id="header">
+        <a href="../index.html"><div id="logo"><img src="../IMG/name.jpeg" height="80px"></div></a>
+        <h1 id="MainTitle">JustFat</h1>
+        <div id="NavButton" onclick="menu()"><img src="../IMG/NavButtonWhite.png" height="50px"></div>
+    </header>
+    <section id="navegacion" style="display: none;">
+        <a href="../index.html" class="enlaceNav"><div class="subNav">Inicio</div></a>
+        <a href="categorias.html"class="enlaceNav"><div class="subNav">Productos</div></a>
+        <a href="registro.html"class="enlaceNav"><div class="subNav">Registrarse</div></a>
+        <a href="../index.html#Footer"class="enlaceNav"><div class="subNav">Redes Sociales</div></a>
+        <a href="../index.html#Footer"class="enlaceNav"><div class="subNav">Contactanos</div></a>
+    </section>
+    <main class="mainContent2">
+        <section id="Categories">
+            <div class="FeaturedTitle">Categorias de Menus</div>
+            <div id="CategoriasMain">
+                <a href="categorias.html#VeganoTitle"><div class="FilterButton">Vegano</div></a>
+                <a href="categorias.html#KetTitle"><div class="FilterButton">Keto</div></a>
+                <a href="categorias.html#Real_FoodTitle"><div class="FilterButton">Real Food</div></a>
+                <a href="categorias.html#VegetarianoTitle"><div class="FilterButton">Vegetariano</div></a>
+                <a href="categorias.html#MediterranieanTitle"><div class="FilterButton">Mediterráneo</div></a>
+                <a href="categorias.html#CarnivoroTitle"><div class="FilterButton">Carnivoro</div></a>
+            </div>
+        </section>
+        <div class="FeaturedTitle">Carta de Menus</div>
+            <!--Menu Vegano-->
+        <section id="recomended">
+            <section>
+                <div class="RecomMenuTitle"><h2 id="VeganoTitle">Menu Vegano</h2></div>
+                <section class="RecomMenu"> 
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/EnsaladaTropical.png" width="100%"></div>
+                        <div class="RecomTitle">Ensalada de frutas</div>
+                        <h3>Comida</h3>
+                        <div class="RecomIngredientes">
+                            Espinacas, mezclum, salsa avocadolove ,mango, piña, aguacate ,edamame,pepino, cherry, pipas de calabaza y chip platano
+                        </div>
+                        <div class="RecomAlerg">
+                        </div>
+                    </article>
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/tofu-curry-rojo.png" width="100%"></div>
+                        <div class="RecomTitle">Curry rojo de verduras y tofu</div>
+                        <h3>Cena</h3>
+                        <div class="RecomIngredientes">
+                            Caldo de verduras apio, cebolla, puerro, tomate, ajo,
+                            nabo, col, tofu, arroz, zanahoria, pimiento rojo, calabacín, 
+                            curry rojo especias, </div>
+                        <div class="RecomAlerg">
+                            <img src="../IMG/Alergenos/Apio.png" height="40px">
+                            <img src="../IMG/Alergenos/Soja.png"height="40px">
+                            <img src="../IMG/Alergenos/Gluten.png" height="40px">
+                        </div>
+                    </article>
+                </section>
+                <a href="registro.html"><div class="RecomButton">Pedir ahora 19,99€</div></a>
+            </section>
+            <!--Menu Keto-->
+            <section>
+                <div class="RecomMenuTitle"><h2 id="KetTitle">Menu Keto</h2></div>
+                <section class="RecomMenu">
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/CurryKeto.png" width="100%"></div>
+                        <div class="RecomTitle">Curry de Pollo con Verduras</div>
+                        <h3>Comida</h3>
+                        <div class="RecomIngredientes">
+                            pechuga de pollo, aceite de oliva, sal y pimienta, pimiento rojo,
+                            brócoli, salsa de somate sin azúcar, leche de coco o nata de cocinar
+                            , pasta de Curry
+                        </div>
+                        <div class="RecomAlerg">
+                            <img src="../IMG/Alergenos/Lacteos.png" height="40px">
+                        </div>
+                    </article>
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/EnsaladaKeto.png" width="100%"></div>
+                        <div class="RecomTitle">Ensalada Tomate, Pepino y Queso Feta</div>
+                        <h3>Cena</h3>
+                        <div class="RecomIngredientes">
+                            Pepino, tomate cherry, aceitunas negras, queso feta, perejil fresco
+                            sal, pimienta, aceite de oliva, vinagre</div>
+                        <div class="RecomAlerg">                        
+                            <img src="../IMG/Alergenos/Lacteos.png" height="40px">
+                        </div>
+                    </article>
+                </section>
+                
+            <a href="registro.html"><div class="RecomButton">Pedir ahora 19,99€</div></a>
+            </section>
+
+            <!--Menu Real Food-->
+            <section>
+                <div class="RecomMenuTitle"><h2 id="Real_FoodTitle">Real Food</h2></div>
+                <section class="RecomMenu">
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/ParatasReal.png" width="100%"></div>
+                        <div class="RecomTitle">Patatas con salsa picante</div>
+                        <h3>Comida</h3>
+                        <div class="RecomIngredientes">
+                            Patata, Agua mineral natural, Cebolla, Aceite de oliva virgen extra,
+                            Harina de avena, Pimenton rojo de la vera, Ajo,
+                            Pimentón dulce, Pimienta negra, Sal
+                        </div>
+                        <div class="RecomAlerg">
+                        </div>
+                    </article>
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/HumusReal.png" width="100%"></div>
+                        <div class="RecomTitle">Hummus Italiano</div>
+                        <h3>Cena</h3>
+                        <div class="RecomIngredientes">
+                            Garbanzos cocidos, Pimientos rojos asados, 
+                            Tomate seco en aceite de oliva, Zumo de limón, Alcaparras, 
+                            Tahin, Albahaca, Ajo, Comino, Sal
+                        </div>
+                        <div class="RecomAlerg">
+                        </div>
+                    </article>
+                </section>
+                <a href="registro.html"><div class="RecomButton">Pedir ahora 19,99€</div></a>
+            </section>
+            <!--Menu Vegetarianos-->
+            <section>
+                <div class="RecomMenuTitle"><h2 id="VegetarianoTitle">Menu Vegetariano</h2></div>
+                <section class="RecomMenu">
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/CanelonesRomescu.png" width="100%"></div>
+                        <div class="RecomTitle">Canelones de verduras</div>
+                        <h3>Comida</h3>
+                        <div class="RecomIngredientes">
+                            Pasta de trigo, bechamel leche, mantequilla, puerro, calabaza,
+                            salsa romescu, almendra, cloruro de calcio.</div>
+                        <div class="RecomAlerg">
+                            <img src="../IMG/Alergenos/Gluten.png" height="40px">
+                            <img src="../IMG/Alergenos/huevos.png"height="40px">
+                            <img src="../IMG/Alergenos/Lacteos.png" height="40px">
+                            <img src="../IMG/Alergenos/FrutosSecos.png" height="40px">
+                            <img src="../IMG/Alergenos/Sulfitos.png" height="40px">
+                        </div>
+                    </article>
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/veganHamborgir.png" width="100%"></div>
+                        <div class="RecomTitle">Hamburgesa queso de cambra</div>
+                        <h3>Cena</h3>
+                        <div class="RecomIngredientes">
+                            Hamburguesa artesanal de alcachofas confitadas.
+                            Acompañada de queso de cabra, mermelada de tomate
+                            y cebolla caramelizada.
+                        </div>
+                        <div class="RecomAlerg">
+                            <img src="../IMG/Alergenos/Gluten.png" height="40px">
+                            <img src="../IMG/Alergenos/cangrejo.png"height="40px">
+                            <img src="../IMG/Alergenos/huevos.png" height="40px">
+                        </div>
+                    </article>
+                </section>
+                <a href="registro.html"><div class="RecomButton">Pedir ahora 19,99€</div></a>
+            </section>
+            <!--Menu Mediteraneo-->
+            <section>
+                <div class="RecomMenuTitle"><h2 id="MediterranieanTitle">Menu Mediterráneo</h2></div>
+                <section class="RecomMenu">
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/Arroz-negro-alcachofa.png" width="100%"></div>
+                        <div class="RecomTitle">Arroz negro y alcachofa</div>
+                        <h3>Comida</h3>
+                        <div class="RecomIngredientes">
+                            morralla, salmorreta ñora, ajo, tomate, jugo de limón, 
+                            perejil, aceite de oliva virgen, apio, alcachofa, aceite de oliva virgen, sal,
+                        </div>
+                        <div class="RecomAlerg">
+                            <img src="../IMG/Alergenos/Apio.png"height="40px">
+                            <img src="../IMG/Alergenos/Molusco.png" height="40px">
+                        </div>
+                    </article>
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/hervido-valenciano.png" width="100%"></div>
+                        <div class="RecomTitle">Hervido Valenciano</div>
+                        <h3>Cena</h3>
+                        <div class="RecomIngredientes">
+                            Judías verdes, patatas medianas, zanahorias, cebolla, 
+                            Aceite de oliva virgen extra al gusto, Sal al gusto
+                        </div>
+                        <div class="RecomAlerg">
+                        </div>
+                    </article>
+                </section>
+                <a href="registro.html"><div class="RecomButton">Pedir ahora 19,99€</div></a>
+            </section>
+            <!--Menu Carnivoro-->
+            <section>
+                <div class="RecomMenuTitle"><h2 id="CarnivoroTitle">Menu Carnivoro</h2></div>
+                <section class="RecomMenu">
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/CarnivoroComida.png" width="100%"></div>
+                        <div class="RecomTitle">Sandwich de costillar de cerdo</div>
+                        <h3>Comida</h3>
+                        <div class="RecomIngredientes">
+                            costillar, pimienta, paprika, pimiento rojo picado,
+                            pimiento verde picado, cerveza,mayonesa, pepinillos
+                            picados, pimentón rojo en conserva, 
+                        </div>
+                        <div class="RecomAlerg">
+                            <img src="../IMG/Alergenos/Gluten.png" height="40px">
+                            <img src="../IMG/Alergenos/Lacteos.png" height="40px">
+                        </div>
+                    </article>
+                    <article class="RecomItem">
+                        <div class="FotoRecomended"><img src="../IMG/comida/CarnivoroCena.png" width="100%"></div>
+                        <div class="RecomTitle">Medallon de carne</div>
+                        <h3>Cena</h3>
+                        <div class="RecomIngredientes">
+                            medallones de lomo, tocino, mantequilla a temperatura ambiente.
+                            ajos picados, romero, tomillo, sal, pimienta, Harina, Caldo de carne.
+                        </div>
+                        <div class="RecomAlerg">
+                            <img src="../IMG/Alergenos/Lacteos.png" height="40px">
+                        </div>
+                    </article>
+                </section>
+                <a href="registro.html"><div class="RecomButton">Pedir ahora 19,99€</div></a>
+            </section>
+        </section>
+    </main>
+    <footer id="Footer">
+        <div class="FooterInfo">
+            <h3>Informacion de contacto</h3>
+            <p>JustFat@gmail.com</p>
+            <p>+34 655 71 75 90</p>
+        </div>
+        <div class="FooterInfo">
+            <h3>Redes Sociales</h3> 
+            <p>Tick Tock: @JustFat01_ofical</p>
+            <p>Instagram: @JustFat_real</p>
+            <p>X: @JustFat1</p>
+            <p>Facebook: @JustFat</p>
+        </div>
+        <div class="FooterInfo">
+            <h3>Copyright</h3>
+            <p>&copy; 2025 JustFatTM INC &CO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script>
+        function menu(){
+            let navegacion = document.getElementById("navegacion");
+            if(navegacion.style.display == "none"){
+                navegacion.style.display = "flex"
+            } else{
+                navegacion.style.display = "none"
+            }
+        }
+        //Muchas gracias Sergi por el codigo de javaScript
+    </script>
+</body>
+</html>

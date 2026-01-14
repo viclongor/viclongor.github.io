@@ -1,0 +1,333 @@
+/*Etiquetas universales*/
+body{
+    margin: 0px;    
+    background-image: url(../IMG/RegistBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    margin: 7px;
+}
+h3{
+    margin:  7px;
+}
+#header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 84, 72);
+}
+#MainTitle{
+    color: white;
+}
+#NavButton{
+    padding: 15px;
+    display: block;
+}
+#NavButton:hover{
+    background-color: rgb(88, 112, 109);
+    border-radius: 100%;
+    cursor: pointer;
+}
+#navegacion{
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(1, 66, 56);
+}
+#navegacion2{
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(1, 66, 56);
+}
+.subNav{
+    padding: 15px;
+}
+.subNav:hover{
+    
+    background-color: rgb(88, 112, 109);
+}
+.enlaceNav{
+    color: white;
+}
+.mainContent{
+    margin-top: 30px;
+    margin-left:auto;
+    margin-bottom: 30px;
+    margin-right: auto;
+    max-width: 90%;
+    text-align: center;
+    background-color: bisque;
+    border: #005445 solid 5px;
+}
+.mainContent2{
+    margin-top: 30px;
+    margin-left:auto;
+    margin-bottom: 30px;
+    margin-right: auto;
+    max-width: 90%;
+    text-align: center;
+}
+.SectionTitle{
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: solid 2px #005445;
+}
+.RecomMenuTitle{
+    text-align: center;
+    margin-top: 50px;
+}
+.RecomMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#recomended{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background-color: bisque;
+    border: solid 5px #005445;
+}
+.FotoRecomended{
+    background-color: #005445;
+}
+.RecomItem{
+    border:solid 5px rgb(0, 84, 72);
+    text-align: center;
+    margin: 5px;
+    padding-bottom: 1rem;
+    background-color: white;
+}
+.RecomTitle{
+    text-align: center;
+    background-color:  #005445;
+    font-size: 30px;
+    color: white;
+}
+.RecomIngredientes{
+    padding: 1rem;
+}
+.RecomButton{
+    background-color: rgb(92, 171, 92);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow:  4px 4px 4px;
+    margin-bottom: 10px;
+}
+.RecomButton:hover{
+    background-color: #6ccf6c;
+    cursor: pointer;
+    box-shadow:  0px 0px 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+script{
+    margin: 0px;
+    padding: 0px;
+}
+#Footer{
+    background-color: rgb(0, 84, 72);
+    color: white;
+    padding-top: 1rem;
+}
+
+.FooterInfo{
+    padding-bottom: 1rem;
+}
+/*Etiquetas index.html*/
+
+#NewsContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+#NewsLetter{
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(3, 100, 86);
+}
+#NewsTitle{
+    color: white;
+    margin-left: 20px;
+}
+#NewsButton{
+    background-color: rgb(77, 150, 139);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 4px 4px 4px;
+    padding: 1px;
+    margin-bottom: 5px;
+}
+#NewsButton:hover{
+    background-color: rgb(102, 146, 139);
+    cursor: pointer;
+    box-shadow:  0px 0px 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#Featured{
+    border-radius: 3px;
+    border: solid rgb(0, 84, 72) 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#FeaturedMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.FeaturedTitle{
+    text-align: center;
+    background-color: rgb(0, 84, 72);
+    color: white;
+    font-size: 40px;
+}
+.FeaturedItem{
+    border:solid 5px rgb(0, 84, 72);
+    text-align: center;
+    margin: 5px;
+    padding-bottom: 1rem;
+    background-color: white;
+}
+.DestacadoTitle{
+    text-align: center;
+}
+#MainOffer{
+    justify-content: center;
+    height: 25%;
+}
+.espacio{
+    height: 25%;
+}
+#MainButton{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 40px;
+    background-color: rgb(92, 171, 92);
+    border-radius: 5px;
+    max-width: 240px;
+    box-shadow:  4px 4px 4px;
+    padding: 1rem;
+}
+#MainButton:hover{
+    background-color: #6ccf6c;
+    cursor: pointer;
+    box-shadow:  0px 0px 0px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+/*Etiquetas categorias.html*/
+
+#Categories{
+    border: solid 5px #005445;
+    background-color: bisque;
+    margin-bottom: 50px;
+}
+#CategoriesTitle{
+    border-bottom: solid 2px #005445;
+    font-size: 35px;
+}
+.FilterButton{
+    background-color: #005445;
+    display: inline-block;
+    border-radius: 40px;
+    padding: 5px;
+    color: white;
+    margin: 7px;
+    font-size: 20px;
+}
+.FilterButton:hover{
+    margin: 2px;
+    padding: 10px;
+}
+.RecomSection{
+    font-size: 40px;
+    border-bottom: solid 2px #005445;
+}
+@media (min-width: 950px){
+    #recomended{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    .RecomItem{
+        height: 600px;
+    }
+    .FeaturedItem{
+        width: 300px;
+    }
+    #FeaturedMenu{
+    display: flex;
+    justify-content: center;
+    }
+    #MainForm{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #Footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1350px){
+    #recomended{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    #navegacion2{
+        display: flex;
+    }
+    #NavButton{
+        display: none;
+    }
+    #header{
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        background-color: rgb(0, 84, 72);
+    }
+    #MainTitle{
+        text-align: center;
+    }
+}
+/* Etiquetas de registro*/
+#MainForm{
+    background-color: bisque;
+    max-width: 500px;
+    padding-bottom: 1rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: #005445 solid 5px;
+}
+#FormTitle{
+    background-color:  #005445;
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+}
+#form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+input{
+    padding: 5px;
+}
+.FormSection{
+    font-size: 25px;
+}

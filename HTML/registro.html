@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>JustFat</title>
+    <link rel="icon" href="../IMG/name.jpeg">
+</head>
+<body>
+    <header id="header">
+        <a href="../index.html"><div id="logo"><img src="../IMG/name.jpeg" height="80px"></div></a>
+        <h1 id="MainTitle">JustFat</h1>
+        <div id="NavButton" onclick="menu()"><img src="../IMG/NavButtonWhite.png" height="50px"></div>
+    </header>
+    <section id="navegacion" style="display: none;">
+        <a href="../index.html" class="enlaceNav"><div class="subNav">Inicio</div></a>
+        <a href="categorias.html"class="enlaceNav"><div class="subNav">Productos</div></a>
+        <a href="HTML/registro.html"class="enlaceNav"><div class="subNav">Registrarse</div></a>
+        <a href="../index.html#Footer"class="enlaceNav"><div class="subNav">Redes Sociales</div></a>
+        <a href="../index.html#Footer"class="enlaceNav"><div class="subNav">Contactanos</div></a>
+
+    </section>
+        <main id="MainForm">
+            <div id="FormTitle">Registrarse</div>
+            <form autocomplete="on" action="send" method="post" id="form">
+                <p class="FormSection">Nombre</p>
+                <input name="name" type="text" maxlength="20" required placeholder="Victor">
+                <p class="FormSection">Primer Apellido</p>
+                <input name="Apellido1" type="text" maxlength="20" required placeholder="Longas">
+                <p class="FormSection">Segundo Apellido</p>
+                <input name="Apellido2" type="text" maxlength="20" required placeholder="Gordillo">
+                <p class="FormSection">Teléfono</p>
+                <input name="Teléfono" type="tel" maxlength="9" required placeholder="653696981">
+                <p class="FormSection">Dirección</p>
+                <input name="Dirección" type="text" maxlength="50" required placeholder="Valencia La pobla de vallbona C/colon">
+                <p class="FormSection">Email</p>
+                <input name="Email" type="email" required placeholder="viclongor@alu.edu.gva.es">
+                <p></p>
+                <input type="submit" class="RecomButton">
+            </form>
+        </main>
+    <footer id="Footer">
+        <div class="FooterInfo">
+            <h3>Informacion de contacto</h3>
+            <p>JustFat@gmail.com</p>
+            <p>+34 655 71 75 90</p>
+        </div>
+        <div class="FooterInfo">
+            <h3>Redes Sociales</h3> 
+            <p>Tick Tock: @JustFat01_ofical</p>
+            <p>Instagram: @JustFat_real</p>
+            <p>X: @JustFat1</p>
+            <p>Facebook: @JustFat</p>
+        </div>
+        <div class="FooterInfo">
+            <h3>Copyright</h3>
+            <p>&copy; 2025 JustFatTM INC &CO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script>
+        function menu(){
+            let navegacion = document.getElementById("navegacion");
+            if(navegacion.style.display == "none"){
+                navegacion.style.display = "flex"
+            } else{
+                navegacion.style.display = "none"
+            }
+        }
+        //Muchas gracias Sergi por el codigo de javaScript
+    </script>
+</body>
+</html>
